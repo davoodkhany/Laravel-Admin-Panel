@@ -1,3 +1,42 @@
+Introduction
+Nazox is a bootstrap 4 based fully responsive admin dashboard template in Laravel 7 with Laravel Mix, authentication and Multilingual supported . Nazox Laravel admin is based on a simple and modular design, which allows it to be easily customized with few reusable components. It comes with lots of reusable and beautiful UI elements, widgets and more features. This is the ideal template for your next dashboard or admin web app project. Nazox helps you to create your next Bootstrap even faster then before. It can be used to create a Saas based interfase, administrator dashboard or anything you want to build on the web. Nazox helps your team moving faster and saving development costs.
+
+Structure
+Extract the zip file you received after purchase and you would find the exact below files and folders:
+
+├── app 
+    ├── Http
+        ├── Controllers
+            ├── HomeController.php
+            ├── LocaleController.php
+            ├── NazoxController.php
+            └── UserController.php
+├── bootstrap
+├── config
+├── database
+├── public
+├── resources
+    ├── css
+    ├── fonts
+    ├── images
+    ├── js
+    ├── lang
+    ├── sass
+    ├── scss
+    └── views
+        ├── auth
+        ├── common-components
+        ├── layouts
+        └── all blade pages.
+├── routes
+├── storage
+├── tests
+├── .env
+├── artisan
+├── server.php
+├── package.json
+└── webpack.mix.js
+
 
 ## Setup
 
