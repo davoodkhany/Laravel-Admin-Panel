@@ -1,15 +1,57 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+Introduction
+Nazox is a bootstrap 4 based fully responsive admin dashboard template in Laravel 7 with Laravel Mix, authentication and Multilingual supported . Nazox Laravel admin is based on a simple and modular design, which allows it to be easily customized with few reusable components. It comes with lots of reusable and beautiful UI elements, widgets and more features. This is the ideal template for your next dashboard or admin web app project. Nazox helps you to create your next Bootstrap even faster then before. It can be used to create a Saas based interfase, administrator dashboard or anything you want to build on the web. Nazox helps your team moving faster and saving development costs.
+
+Structure
+Extract the zip file you received after purchase and you would find the exact below files and folders:
+
+├── app 
+    ├── Http
+        ├── Controllers
+            ├── HomeController.php
+            ├── LocaleController.php
+            ├── NazoxController.php
+            └── UserController.php
+├── bootstrap
+├── config
+├── database
+├── public
+├── resources
+    ├── css
+    ├── fonts
+    ├── images
+    ├── js
+    ├── lang
+    ├── sass
+    ├── scss
+    └── views
+        ├── auth
+        ├── common-components
+        ├── layouts
+        └── all blade pages.
+├── routes
+├── storage
+├── tests
+├── .env
+├── artisan
+├── server.php
+├── package.json
+└── webpack.mix.js
+
+
+## Setup
+
+
+Laravel Mix provides a clean, fluent API for defining basic webpack build steps for your Laravel application. Mix supports several common CSS and JavaScript pre-processors.
+Note: If you are using single mode ( Dark, Light, RTL ) and dont need right side drawer to change layout then please remove css link from resources/views/layouts/heade.blade.php and also remove js code initSettings(); method is declared inside into init() method in the file resources/js/app.js
+You need to add these css for specific mode which you want to use in your project so there will be no any extra css files will be loaded.
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+    <a href="https://xoopiter.ir">
+        <img src="https://xoopiter.ir/wp-content/uploads/2021/09/black-hole-planets-galaxy-science-fiction-wallpaper-beauty-deep-space-billions-galaxy-universe-cosmic-art-background-vertical-image-smartphone-background.jpg" height="100px" style="max-width:100%;" ALT="XOOPITER">
+    </a>
+ </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
